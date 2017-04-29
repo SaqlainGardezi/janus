@@ -73,7 +73,10 @@ $(document).ready(function() {
 			// Create session
 			janus = new Janus(
 				{
-					server: ["https://webrtc.pakeproperty.com:8089/janus", "wss://webrtc.pakeproperty.com:8989/janus","https://webrtc.pakeproperty.com:8089", "wss://webrtc.pakeproperty.com:8989"],
+					server: ["https://webrtc.pakeproperty.com:8089/janus", "wss://webrtc.pakeproperty.com:8989/janus","https://webrtc.pakeproperty.com:8089", "wss://webrtc.pakeproperty.com:8989",
+							"http://webrtc.pakeproperty.com:8088/janus",
+							"ws://webrtc.pakeproperty.com:8189/janus"
+					],
 //server:["wss://janus.conf.meetecho.com/janus","ws://janus.conf.meetecho.com/janus","https://janus.conf.meetecho.com/janus"],
 					success: function() {
 						// Attach to echo test plugin
