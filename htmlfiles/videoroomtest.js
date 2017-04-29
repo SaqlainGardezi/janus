@@ -86,8 +86,8 @@ $(document).ready(function() {
 					// 		"http://webrtc.pakeproperty.com:8088/janus",
 					// 		"wss://webrtc.pakeproperty.com:8989/janus",
 					// 		"ws://webrtc.pakeproperty.com:8189/janus"],
-					//server: "https://webrtc.pakeproperty.com:8089/janus",
-					server:["wss://janus.conf.meetecho.com/janus","ws://janus.conf.meetecho.com/janus","https://janus.conf.meetecho.com/janus"],
+					server: "https://webrtc.pakeproperty.com:8089/janus",
+					//server:["wss://janus.conf.meetecho.com/janus","ws://janus.conf.meetecho.com/janus","https://janus.conf.meetecho.com/janus"],
 					
 					success: function() {
 						// Attach to video room test plugin
