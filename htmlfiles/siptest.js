@@ -79,8 +79,8 @@ $(document).ready(function() {
 			janus = new Janus(
 				{
 //server: server,
-					server: "https://webrtc.pakeproperty.com:8089/janus",
-
+			//		server: "https://webrtc.pakeproperty.com:8089/janus",
+					server: ["https://webrtc.pakeproperty.com:8089/janus", "wss://webrtc.pakeproperty.com:8989/janus","https://webrtc.pakeproperty.com:8089", "wss://webrtc.pakeproperty.com:8989"],
 //					server:["wss://janus.conf.meetecho.com/janus","ws://janus.conf.meetecho.com/janus","https://janus.conf.meetecho.com/janus"],
 
 					success: function() {
